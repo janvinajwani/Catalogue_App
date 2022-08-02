@@ -26,7 +26,7 @@ class _HomePageState extends State<HomePage> {
 
   // final url = "https://api.jsonbin.io/b/604dbddb683e7e079c4eefd3";
   // var url = "	https://www.googleapis.com/books/v1/volumes?q=ISBN:";
-  //final url = "http://localhost:3000/products";
+  final url = "https://my-json-server.typicode.com/janvinajwani/SampleJSONPlaceholder/db";
   @override
   void initState() {
     super.initState();
@@ -35,17 +35,17 @@ class _HomePageState extends State<HomePage> {
 
   loadData() async {
     await Future.delayed(Duration(seconds: 2));
-    final catalogueJson =
+    //final catalogueJson =
         //await rootBundle.loadString("assests/files/catalogue.json");
-        await rootBundle.loadString("assests/files/books.json");
+        //await rootBundle.loadString("assests/files/books.json");
 
-    // final response = await http.get(Uri.parse(url));
+    final response = await http.get(Uri.parse(url));
     // final response =
     //   await http.get(Uri.parse('http://localhost:3000/products'));
     //if (response.statusCode != 200) {
     //throw Exception('Failed to load album');
     //}
-    //final catalogueJson = response.body;
+    final catalogueJson = response.body;
     // print(catalogueJson);
 
     final decodedData = jsonDecode(catalogueJson);
