@@ -3,6 +3,7 @@ import 'package:flutter_kindle/models/catalog.dart';
 import 'package:flutter_kindle/widgets/theme.dart';
 import 'package:velocity_x/velocity_x.dart';
 import 'package:flutter_kindle/widgets/home_widgets/add_to_cart.dart';
+import 'package:readmore/readmore.dart';
 
 class HomeDetailPage extends StatelessWidget {
   final Item catalogue;
@@ -22,7 +23,7 @@ class HomeDetailPage extends StatelessWidget {
           alignment: MainAxisAlignment.spaceBetween,
           buttonPadding: EdgeInsets.zero,
           children: [
-            "\$${catalogue.price}".text.bold.xl4.make(),
+            "\u{20B9}${catalogue.price}".text.bold.xl4.make(),
             AddToCart(
               catalogue: catalogue,
             ).wh(100, 40)
@@ -36,18 +37,19 @@ class HomeDetailPage extends StatelessWidget {
             Hero(
               tag: Key(catalogue.id.toString()),
               child: Image.network(catalogue.image),
-            ).h24(context),
+            ).h20(context),
             Expanded(
               child: VxArc(
-                height: 40.0,
+                height: 24.0,
                 arcType: VxArcType.CONVEY,
                 edge: VxEdge.TOP,
                 child: Container(
                   color: context.cardColor,
                   width: context.screenWidth,
-                  child: Column(
+                  child: SingleChildScrollView(
+                      child: Column(
                     children: [
-                      catalogue.name.text.xl4
+                      catalogue.name.text.xl2
                           .color(context.accentColor)
                           .bold
                           .make(),
@@ -56,13 +58,13 @@ class HomeDetailPage extends StatelessWidget {
                           .xl
                           .make(),
                       10.heightBox,
-                      "Amet labo lorem eirmod dolore duo. Sed consetetur et eos erat ipsum tempor, sea aliquyam eirmod vero ut sed sit et sadipscing diam, et ipsum sed ipsum at duo."
-                          .text
+                      // "Amet labo lorem eirmod dolore duo. Sed consetetur et eos erat ipsum tempor, sea aliquyam eirmod vero ut sed sit et sadipscing diam, et ipsum sed ipsum at duo."
+                      catalogue.color.text
                           .textStyle(context.captionStyle!)
                           .make()
-                          .p8()
+                          .p24()
                     ],
-                  ).py64(),
+                  )).py32(),
                 ),
               ),
             ),

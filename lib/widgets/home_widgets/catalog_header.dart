@@ -8,13 +8,13 @@ class CatalogueHeader extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        "Catalogue App"
+        "The Avid Bookworm"
             .text
             .xl4
             .bold
             .color(context.theme.colorScheme.secondary)
             .make(),
-        "Trending Products".text.xl2.make(),
+        "Available Books".text.xl2.make(),
       ],
     );
   }

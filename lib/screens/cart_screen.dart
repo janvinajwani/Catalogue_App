@@ -46,7 +46,7 @@ class _CartTotal extends StatelessWidget {
             mutations: {RemoveMutation},
             builder: (context, MyStore, _) {
               // print("Rebuild Happened");
-              return "\$${_cart.totalPrice}"
+              return "\u{20B9}${_cart.totalPrice}"
                   .text
                   .xl5
                   .color(context.theme.accentColor)

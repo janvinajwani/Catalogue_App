@@ -1,0 +1,68 @@
+{
+    "products": [
+        {
+          "id": 1,
+          "name": "Essential Items",
+          "desc": "by Udayan Mukerjee",
+          "price": 140,
+          "color": "IT IS THE DREADFUL SUMMER OF THE 2020 PANDEMIC, AND INDIA IS IN LOCKDOWN.A British climber stranded in the Himalayan border town of Munsiyari forms a bond with his host's seven-year-old grandson. Two funeral workers at a Benaras ghat try to work their way out of the dwindling business of cremations. A domestic worker, sent on paid leave, grapples with the shifting landscape for people on the margins of an urban metropolis. Hundreds of returning migrant workers turn up unannounced at the gates of an erstwhile Rajbari in Kolkata in the wake of a devastating cyclone.Essential Items, Udayan Mukherjee examines oft overlooked human attributes – resilience, faith, endurance – put to test by a pandemic-forced lockdown. Written in stark, minimalist prose, these poignant but darkly funny stories expose deep cracks in our societal structures, papered over by the myth of growing prosperity.",
+          "image": "https://images-na.ssl-images-amazon.com/images/I/71vvMoAApuL.jpg"
+        },
+        {
+          "id": 2,
+          "name": "The Kite Runner",
+          "desc": "by Khaled Hosseini",
+          "price": 385,
+          "color": "Afghanistan, 1975: Twelve-year-old Amir is desperate to win the local kite-fighting tournament and his loyal friend Hassan promises to help him. But neither of the boys can foresee what will happen to Hassan that afternoon, an event that is to shatter their lives. After the Russians invade and the family is forced to flee to America, Amir realises that one day he must return to Afghanistan under Taliban rule to find the one thing that his new world cannot grant him: redemption.",
+          "image": "https://images-na.ssl-images-amazon.com/images/I/81IzbD2IiIL.jpg"
+        },
+        {
+          "id": 3,
+          "name": "The Immortals of Meluha",
+          "desc": "by Amish Tripathi ",
+          "price": 249,
+          "color": "Called \"archetypal and stirring\" by Deepak Chopra, The Immortals of Meluha heralds an exciting new wave of fantasy writing inspired by the ancient civilizations of the East. Tripathi devoted years to the research of Hindu mythological stories and history, and discussions with his family about the destiny of the human body, mind and soul to create this sweeping and fascinating adaptation of ancient Hindu mythology for modern fantasy readers. 1900 BC in what modern Indians call the Indus Valley Civilization and the inhabitants called the land of Meluha: a near-perfect empire created many centuries earlier by Lord Ram--one of the greatest monarchs that ever lived--faces peril as its primary river, the Saraswati, is slowly drying to exctinction. The Suryavanshi rulers are challenged with devastating terrorist attacks from the east, the land of the Chandravanshis. To make matters worse, the Chandravanshis appear to have allied with the Nagas, an ostracized and sinister race of deformed humans with astonishing martial skills. The only hope for the Suryavanshis is an ancient legend: When evil reaches epic proportions, when all seems lost, a hero will emerge. Is the unexpected, rough-hewn Tibetan immigrant Shiva that hero? Drawn suddenly to his destiny, duty, and by love, Shiva will attempt to move mountains and lead the Suryavanshi to destroy evil.",
+          "image": "https://5.imimg.com/data5/WW/DS/MY-11183377/the-immortals-of-meluha-28shiva-trilogy-29-500x500.png"
+        },
+        {
+          "id": 4,
+          "name": "Pride & Prejudice",
+          "desc": "by Jane Austen",
+          "price": 109,
+          "color": "When Elizabeth Bennet meets Fitzwilliam Darcy for the first time at a ball, she writes him off as an arrogant and obnoxious man. He not only acts like an insufferable snob, but she also overhears him rejecting the very idea of asking her for a dance! As life pits them against each other again and again, Darcy begins to fall for Elizabeth's wit and intelligence and Elizabeth begins to question her feelings about Darcy. When Darcy saves her youngest sister, Lydia, from a scandal, Elizabeth starts to wonder if her pride has prejudiced her opinion of Darcy. Through this tale about two warring hearts, Austen weaves a witty satire about life in eighteenth century England. And through it was published more than two centuries ago, Pride and Prejudice continues to enthrall readers to this very day.",
+          "image": "https://rukminim1.flixcart.com/image/416/416/kqidx8w0/book/m/t/q/pride-prejudice-original-imag4hhytfbvzyza.jpeg?q=70"
+        },
+        {
+          "id": 5,
+          "name": "Atomic Habits",
+          "desc": "by James Clear",
+          "price": 496,
+          "color": "‘A supremely practical and useful book. James Clear distils the most fundamental information about habit formation, so you can accomplish more by focusing on less. ’ Mark Manson, author of The Subtle Art of Not Giving A F*ck________________________________People say when you want to change your life, you need to set big goals. But they’re wrong. World-renowned habits expert James Clear has discovered a simpler system for transforming your life. He knows that lasting change comes from the compound effect of hundreds of small decisions – doing two push-ups a day, waking up five minutes early, or holding a single short phone call. He calls them atomic habits. In this ground-breaking book, Clear reveals how these tiny changes will help you get 1 percent better every day. He uncovers a handful of simple life hacks (the forgotten art of Habit Stacking, the unexpected power of the Two Minute Rule, or the trick to entering the Goldilocks Zone) and delves into cutting-edge psychology and neuroscience to explain why they matter. Along the way, he tells inspiring stories of Olympic gold medalists, leading CEOs and distinguished scientists who have used the science of small habits to stay productive, motivated and happy. These small changes will have a revolutionary effect on your career, your relationships and your life. ________________________________‘James Clear has spent years honing the art and studying the science of habits. This engaging, hands-on book is the guide you need to break bad routines and make good ones. ’ Adam Grant, author of Originals‘A special book that will change how you approach your day and live your life. ’ Ryan Holiday, author of The Obstacle is the Way",
+          "image": "https://m.media-amazon.com/images/I/513Y5o-DYtL.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Rich Dad Poor Dad",
+          "desc": "by Robert T. Kiyosaki",
+          "price": 496,
+          "color": "Rich Dad Poor Dad is Robert's story of growing up with two dads — his real father and the father of his best friend, his rich dad — and the ways in which both men shaped his thoughts about money and investing. The book explodes the myth that you need to earn a high income to be rich and explains the difference between working for money and having your money work for you.",
+          "image": "https://m.media-amazon.com/images/I/51AHZGhzZEL._SL500_.jpg"
+        },
+        {
+          "id": 7,
+          "name": "Three Men in a Boat",
+          "desc": "by Jerome K. Jerome",
+          "price": 109,
+          "color": "Treat yourself with humour and adventure: Well, as a group of friends, what would you probably do to get rid of some temporary problems? How does it sound to involve yourself into a new set of problems to get rid of the old ones? Well, that’s just what 'Three men in a boat’ is like. The storyline: The book, 'Three men in a Boat’ revolves around three friends, J, Harris and George. On one ordinary day, the three friends gather at J’s house and spend some time smoking and talking about the lows in life. That’s when they come up with the idea of taking a boat trip up the river Thames. They believed that this could be a retreat to all their problems and troubles. But little did they know what lay ahead! The book, 'Three men in a Boat’ is a sure trip full of adventure and humour. As decided, the three friends along with a fox-terrier, start their voyage up and down the river Thames. As the story proceeds further, you find yourself caught into various pieces of vivid descriptions and innumerable anecdotes. The story takes a turn with every time there is a change in weather or something goes haphazardly wrong with the tow ropes. The book is a definite entertainer as it will fill you with ample classic British humour and a lot more. About the Author: Jerome K. Jerome is known for many popular books with a writing style which comes with humour. Born in England and having received education in a poor family, Jerome was highly inspired by his sister’s love for theatre. That’s where his journey in various occupations began. From an actor to a journalist to even a teacher, he finally received recognition in the field of writing with 'On the Stage and Off’. His major influence for the book 'Three Men in a Boat’ comes from his honeymoon which actually had taken place on the river Thames in a little boat. The book is available online for convenient shopping. You can bag this book from A today by following a few easy steps.",
+          "image": "https://images-na.ssl-images-amazon.com/images/I/71yR6I17NQS.jpg"
+        },
+        {
+          "id": 8,
+          "name": "The Living Mountain",
+          "desc": "by Amitav Ghosh",
+          "price": 327,
+          "color": "A new story from internationally renowned author Amitav Ghosh, The Living Mountain is a cautionary tale of how we have systematically exploited nature, leading to an environmental collapse. Recounted as a dream, this is a fable about Mahaparbat, the Living Mountain; the indigenous valley dwellers who live and prosper in its shelter; the assault on the mountain for commercial benefit by the Anthropoi, humans whose sole aim is to reap the bounty of nature; and the disaster that unfolds as a result. The Living Mountain is especially relevant today when we have been battling a pandemic and are facing a climate catastrophe: both of which are products of our insufficient understanding of mankind's relationship with nature, and our sustained appropriation and abuse of natural resources. This is a book of our times, for our times, and it will resonate strongly with readers of all ages.",
+          "image": "https://images-na.ssl-images-amazon.com/images/I/71J7XjS8TrL.jpg"
+        }
+      ]
+}
